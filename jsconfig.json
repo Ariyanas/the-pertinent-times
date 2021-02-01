@@ -4,10 +4,13 @@
     "target": "es6",
     "baseUrl": ".",
     "paths": {
-      "@app/*": ["./src/*"],
+      "@/*": ["./src/*"],
       "@utils/*": ["./src/utils/*"],
       "@services/*": ["./src/services/*"],
-      "@components/*": ["./src/components/*"]
+      "@components/*": ["./src/components/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@styles/*": ["./src/styles/*"]
     }
   },
   "include": ["src/**/*"],
