@@ -5,7 +5,7 @@ function FeedSection() {
     return (
         <div>
             <Container>
-                hello
+                Feed Section
             </Container>
         </div>
     )
